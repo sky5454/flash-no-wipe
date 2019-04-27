@@ -11,9 +11,9 @@
 ## 可能用到的操作
 在这里我们用!#代表在adb shell下root用户  
 *当然这些操作不过是大概的，不具体的，以后我们需要的是更细致的脚本*  
-/data/ !# ```rm -r /data/system*```  
-/data/ !# ```rm -r /data/data/*android*```  
-/data/ !# ```rm -r /data/data/*qualcomm*```  
+!# ```rm -r /data/system*```  
+!# ```rm -r /data/data/*android*```  
+!# ```rm -r /data/data/*qualcomm*```  
 <br>
 一般来说，我们可以删除/data区里非用户程序的东西，只留下用户程序的/data/app /data/data(删除到不含系统数据) /data/app-lib  
 
