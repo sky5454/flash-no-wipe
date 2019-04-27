@@ -1,0 +1,25 @@
+/data/system下
+[packages.list文件133行里]
+com.ucturbo 10141 0 /data/user/0/com.ucturbo default:targetSdkVersion=26 3002,3003
+
+[packages.xml文件4230-4246行里]
+    <package name="com.ucturbo" codePath="/data/app/com.ucturbo-fFXRlo0h87esbKzp_MGW7g==" nativeLibraryPath="/data/app/com.ucturbo-fFXRlo0h87esbKzp_MGW7g==/lib" primaryCpuAbi="armeabi-v7a" publicFlags="945307204" privateFlags="0" ft="16a5d6acae8" it="16a5d69cf62" ut="16a5d6b0701" version="69" userId="10141">
+        <sigs count="1" schemeVersion="1">
+            <cert index="14" key="308202153082017ea00302010202044d92c9ac300d06092a864886f70d0101050500304e310b300906035504061302636e310b3009060355040813026764310b300906035504071302677a310b3009060355040a13027563310b3009060355040b13027563310b30090603550403130275633020170d3131303333303036313135365a180f32303635313233313036313135365a304e310b300906035504061302636e310b3009060355040813026764310b300906035504071302677a310b3009060355040a13027563310b3009060355040b13027563310b300906035504031302756330819f300d06092a864886f70d010101050003818d0030818902818100aac959f5439f1595907c7fa43a6d628fa6c6e0006470d122ee5edac296e51d24450acf16e3a4aa8b75735e23a8a7cd4925825a9e3311d6c6d4024b4e837d613bb037a25e898380625b042c1cb7eb017f86772b4ae10256f840d75a9b4f646f2fd7a178e58035182358c1eb2b940307107af050384f3b2763b186679e371ea5c90203010001300d06092a864886f70d010105050003818100a635800a51087088b481823651d212253fcc0fa4b97dc872f9f1c47b723e1a31e4c53ddaf8d7f9e0b754f579c01c887fd6f1de1368594f8262a77e95582ad818bcffd02b9e36a1afe462b220acc6ca00bb98a2d07a484257ab43759231c7134e89168048f05bb3ed20438b045b3e5259488a80fe64888cc89202d33c57824fc1" />
+        </sigs>
+        <perms>
+            <item name="android.permission.BLUETOOTH" granted="true" flags="0" />
+            <item name="android.permission.GET_TASKS" granted="true" flags="0" />
+            <item name="android.permission.INTERNET" granted="true" flags="0" />
+            <item name="android.permission.CHANGE_WIFI_STATE" granted="true" flags="0" />
+            <item name="android.permission.ACCESS_NETWORK_STATE" granted="true" flags="0" />
+            <item name="android.permission.VIBRATE" granted="true" flags="0" />
+            <item name="android.permission.ACCESS_WIFI_STATE" granted="true" flags="0" />
+            <item name="android.permission.WAKE_LOCK" granted="true" flags="0" />
+        </perms>
+        <proper-signing-keyset identifier="20" />
+    </package>
+
+
+--------------------分割线--------------------
+因为还没打开过ucturbo这个应用，也没授予任何权限
