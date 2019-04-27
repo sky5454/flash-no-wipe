@@ -19,6 +19,7 @@
 Ps. /data/system/ 下为系统设置等记录，包含了包管理所需的配置文件，请勿轻易删除，详情请看“文件”条目  
 
 ## 文件
+目录文件列表请看	`FileList.md`  
 /data/system/	 系统配置文件（如安卓里的设置，隐性或显性的设置：如已安装的应用、配置文件等等）该目录下含包管理信息，参见：https://www.jianshu.com/p/f47e45602ad2  
 /data/misc/	大部分的WiFI/WLAN VPN信息  
 
