@@ -17,3 +17,12 @@
 <br>
 一般来说，我们可以删除/data区里非用户程序的东西，只留下用户程序的/data/app /data/data(删除到不含系统数据) /data/app-lib  
 
+
+## 使用技巧来帮助改进这个项目
+例如：可以把终端/CMD命令执行的结果复制粘贴到log.txt  
+然后提取你输入过的命令  
+### Linux
+$ cat log.txt | grep "#" >> command.txt  
+$ cat command.txt  
+### Windows
+type log.txt | findstr "#" >> command.txt  
