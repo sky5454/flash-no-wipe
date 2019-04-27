@@ -2,6 +2,14 @@
 刷机不双清，我们可以做到的 We can flash rom without wipe.
 注意，如果是加密分区的解密，一般需要格式化，不适用本Project
 
+# 主要思路
+rm掉data分区下不需要的文件，仅保留需要的文件（
+	如/data/app/  非系统应用  
+	  /data/data/ 非系统数据  
+	  /data/app-lib/  非系统部分  
+	  /data/system/  包管理剔除系统应用部分
+）
+
 # 基本操作/原理
 由于普通应用程序和普通应用程序的数据在理论上是不会干扰新ROM系统的运行的，所以我们只需要把非系统应用留下，删除/data里和系统相关的文件就行了  
 <br>
@@ -12,7 +20,7 @@
 另外参考方法见本项目下其他文件  
 在这里我们用!#代表在adb shell下root用户  
 *当然这些操作不过是大概的，不具体的，以后我们需要的是更细致的脚本*  
-!# ```rm -r /data/system*```  
+修改包管理配置文件  
 !# ```rm -r /data/data/*android*```  
 !# ```rm -r /data/data/*qualcomm*```  
 <br>
