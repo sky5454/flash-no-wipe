@@ -1,4 +1,8 @@
 /data/system下
+[package-cstats.list文件第62-63行里]
+com.ucturbo
+-base.apk:5568
+
 [packages.list文件133行里]
 com.ucturbo 10141 0 /data/user/0/com.ucturbo default:targetSdkVersion=26 3002,3003
 
