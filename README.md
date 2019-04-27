@@ -15,8 +15,12 @@
 !# ```rm -r /data/data/*android*```  
 !# ```rm -r /data/data/*qualcomm*```  
 <br>
-一般来说，我们可以删除/data区里非用户程序的东西，只留下用户程序的/data/app /data/data(删除到不含系统数据) /data/app-lib  
+一般来说，我们可以选择性删除/data区里非用户程序的东西，只留下用户程序的/data/app /data/data(删除到不含系统数据) /data/app-lib  
+Ps. /data/system/ 下为系统设置等记录，包含了包管理所需的配置文件，请勿轻易删除，详情请看“文件”条目  
 
+## 文件
+/data/system/	 系统配置文件（如安卓里的设置，隐性或显性的设置：如已安装的应用、配置文件等等）该目录下含包管理信息，参见：https://www.jianshu.com/p/f47e45602ad2  
+/data/misc/	大部分的WiFI/WLAN VPN信息  
 
 ## 使用技巧来帮助改进这个项目
 例如：可以把终端/CMD命令执行的结果复制粘贴到log.txt  
