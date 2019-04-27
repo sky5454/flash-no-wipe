@@ -2,6 +2,7 @@
 刷机不双清，我们可以做到的 We can flash rom without wipe.  
 注意，如果是加密分区的解密，一般需要格式化，不适用本Project  
 但是非常欢迎各位把各ROM的app包名提交上来，因为这非常有利于下一步内容的精准适配  
+AEX-p-data-system目录下展示了：AEX安卓p的data/system包管理配置文件例子说明
 
 ## 目前问题
 不小心删除了data目录内容...  
