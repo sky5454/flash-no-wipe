@@ -1,0 +1,299 @@
+~$ adb shell
+~ # ls
+bt_firmware                             oem
+cache                                   persist
+charger                                 proc
+data                                    property_contexts
+default.prop                            res
+dev                                     root
+dsp                                     sbin
+etc                                     sdcard
+factory                                 seapp_contexts
+file_contexts                           selinux_version
+firmware                                sepolicy
+fstab.qcom                              service_contexts
+init                                    sideload
+init.cmd-fs.sh                          supersu
+init.fingerprintid.sh                   sys
+init.rc                                 system
+init.recovery.hlthchrg.rc               tmp
+init.recovery.qcom.rc                   twres
+init.recovery.service.rc                ueventd.qcom.rc
+init.recovery.usb.rc                    ueventd.rc
+init.recovery.vold_decrypt.qseecomd.rc  usb-otg
+init.recovery.vold_decrypt.rc           vendor
+license                                 verity_key
+~ # cd /d
+/sbin/sh: cd: can't cd to /d
+~ # cd /data/
+/data # ls
+adb             bootchart       local           ota             system_de
+anr             cache           lost+found      ota_package     tombstones
+app             dalvik-cache    media           property        user
+app-asec        data            mediadrm        resource-cache  user_de
+app-ephemeral   data.tar        misc            ss              vendor
+app-lib         dpm             misc_ce         ssh             vendor_ce
+app-private     drm             misc_de         system          vendor_de
+backup          fpc             nfc             system_ce
+/data # rm -r `ls | grep -v "data"`
+/data # ls
+data      data.tar
+/data # rm data.tar 
+/data # ls
+data
+/data # cd ./data/
+/data/data # ls
+android
+android.auto_generated_rro__
+code.name.monkey.retromusic
+com.accents.amber
+com.accents.blue
+com.accents.bluegrey
+com.accents.brown
+com.accents.candyred
+com.accents.cyan
+com.accents.deeporange
+com.accents.deeppurple
+com.accents.extendedgreen
+com.accents.green
+com.accents.grey
+com.accents.indigo
+com.accents.jadegreen
+com.accents.lightblue
+com.accents.lightgreen
+com.accents.lime
+com.accents.orange
+com.accents.paleblue
+com.accents.palered
+com.accents.pink
+com.accents.purple
+com.accents.red
+com.accents.teal
+com.accents.yellow
+com.android.backupconfirm
+com.android.bips
+com.android.bluetooth
+com.android.bluetoothmidiservice
+com.android.calculator2
+com.android.calendar
+com.android.calllogbackup
+com.android.captiveportallogin
+com.android.carrierconfig
+com.android.carrierdefaultapp
+com.android.cellbroadcastreceiver
+com.android.certinstaller
+com.android.companiondevicemanager
+com.android.contacts
+com.android.contacts.theme.black
+com.android.contacts.theme.chocolate
+com.android.contacts.theme.dark
+com.android.contacts.theme.extended
+com.android.cts.ctsshim
+com.android.cts.priv.ctsshim
+com.android.defcontainer
+com.android.deskclock
+com.android.dialer
+com.android.dialer.theme.black
+com.android.dialer.theme.chocolate
+com.android.dialer.theme.dark
+com.android.dialer.theme.extended
+com.android.documentsui
+com.android.documentsui.theme.black
+com.android.documentsui.theme.chocolate
+com.android.documentsui.theme.dark
+com.android.documentsui.theme.extended
+com.android.dreams.basic
+com.android.egg
+com.android.emergency
+com.android.externalstorage
+com.android.facelock
+com.android.gallery3d
+com.android.inputdevices
+com.android.inputmethod.latin
+com.android.internal.display.cutout.emulation.tall
+com.android.keychain
+com.android.launcher3
+com.android.location.fused
+com.android.managedprovisioning
+com.android.messaging
+com.android.mms.service
+com.android.mtp
+com.android.musicfx
+com.android.pacprocessor
+com.android.phone
+com.android.printservice.recommendation
+com.android.printspooler
+com.android.providers.blockednumber
+com.android.providers.calendar
+com.android.providers.contacts
+com.android.providers.downloads
+com.android.providers.downloads.ui
+com.android.providers.media
+com.android.providers.settings
+com.android.providers.telephony
+com.android.providers.userdictionary
+com.android.proxyhandler
+com.android.se
+com.android.server.telecom
+com.android.settings
+com.android.settings.intelligence
+com.android.settings.theme.black
+com.android.settings.theme.chocolate
+com.android.settings.theme.dark
+com.android.settings.theme.extended
+com.android.sharedstoragebackup
+com.android.shell
+com.android.simappdialog
+com.android.smspush
+com.android.statementservice
+com.android.stk
+com.android.storagemanager
+com.android.system.theme.black
+com.android.system.theme.chocolate
+com.android.system.theme.dark
+com.android.system.theme.extended
+com.android.systemui
+com.android.systemui.custom.theme.dark
+com.android.systemui.qstile.circlegradient
+com.android.systemui.qstile.circleoutline
+com.android.systemui.qstile.justicons
+com.android.systemui.qstile.roundedsquare
+com.android.systemui.qstile.square
+com.android.systemui.qstile.squircle
+com.android.systemui.qstile.teardrop
+com.android.systemui.theme.black
+com.android.systemui.theme.chocolate
+com.android.systemui.theme.extended
+com.android.terminal
+com.android.traceur
+com.android.vending
+com.android.vpndialogs
+com.android.wallpaper.livepicker
+com.android.wallpaperbackup
+com.android.wallpapercropper
+com.android.webview
+com.aospextended.ota
+com.custom.fonts
+com.dsi.ant.server
+com.du.settings.doze
+com.google.android.apps.restore
+com.google.android.apps.turbo
+com.google.android.apps.wallpaper
+com.google.android.apps.wellbeing
+com.google.android.apps.wellbeing.theme.black
+com.google.android.apps.wellbeing.theme.chocolate
+com.google.android.apps.wellbeing.theme.dark
+com.google.android.apps.wellbeing.theme.extended
+com.google.android.backuptransport
+com.google.android.carriersetup
+com.google.android.configupdater
+com.google.android.ext.services
+com.google.android.ext.shared
+com.google.android.feedback
+com.google.android.gms
+com.google.android.gms.setup
+com.google.android.googlequicksearchbox
+com.google.android.gsf
+com.google.android.markup
+com.google.android.onetimeinitializer
+com.google.android.packageinstaller
+com.google.android.partnersetup
+com.google.android.setupwizard
+com.google.android.soundpicker
+com.google.android.syncadapters.calendar
+com.google.android.syncadapters.contacts
+com.google.android.tts
+com.lineageos.settings.zukpref
+com.qti.dpmserviceapp
+com.qualcomm.qcrilmsgtunnel
+com.qualcomm.qti.poweroffalarm
+com.qualcomm.qti.telephonyservice
+com.qualcomm.timeservice
+com.quicinc.cne.CNEService
+com.ucturbo
+jahirfiquitiva.apps.frames.sample
+mark.via.gp
+org.codeaurora.ims
+org.lineageos.recorder
+org.lineageos.snap
+org.pixelexperience.weather.client
+/data/data # rm -r *android*
+/data/data # ls
+code.name.monkey.retromusic         com.accents.red
+com.accents.amber                   com.accents.teal
+com.accents.blue                    com.accents.yellow
+com.accents.bluegrey                com.aospextended.ota
+com.accents.brown                   com.custom.fonts
+com.accents.candyred                com.dsi.ant.server
+com.accents.cyan                    com.du.settings.doze
+com.accents.deeporange              com.lineageos.settings.zukpref
+com.accents.deeppurple              com.qti.dpmserviceapp
+com.accents.extendedgreen           com.qualcomm.qcrilmsgtunnel
+com.accents.green                   com.qualcomm.qti.poweroffalarm
+com.accents.grey                    com.qualcomm.qti.telephonyservice
+com.accents.indigo                  com.qualcomm.timeservice
+com.accents.jadegreen               com.quicinc.cne.CNEService
+com.accents.lightblue               com.ucturbo
+com.accents.lightgreen              jahirfiquitiva.apps.frames.sample
+com.accents.lime                    mark.via.gp
+com.accents.orange                  org.codeaurora.ims
+com.accents.paleblue                org.lineageos.recorder
+com.accents.palered                 org.lineageos.snap
+com.accents.pink                    org.pixelexperience.weather.client
+com.accents.purple
+/data/data # rm -r *accents*
+/data/data # ls
+code.name.monkey.retromusic         com.qualcomm.timeservice
+com.aospextended.ota                com.quicinc.cne.CNEService
+com.custom.fonts                    com.ucturbo
+com.dsi.ant.server                  jahirfiquitiva.apps.frames.sample
+com.du.settings.doze                mark.via.gp
+com.lineageos.settings.zukpref      org.codeaurora.ims
+com.qti.dpmserviceapp               org.lineageos.recorder
+com.qualcomm.qcrilmsgtunnel         org.lineageos.snap
+com.qualcomm.qti.poweroffalarm      org.pixelexperience.weather.client
+com.qualcomm.qti.telephonyservice
+/data/data # rm -r *qualcomm*
+/data/data # ls
+code.name.monkey.retromusic         com.ucturbo
+com.aospextended.ota                jahirfiquitiva.apps.frames.sample
+com.custom.fonts                    mark.via.gp
+com.dsi.ant.server                  org.codeaurora.ims
+com.du.settings.doze                org.lineageos.recorder
+com.lineageos.settings.zukpref      org.lineageos.snap
+com.qti.dpmserviceapp               org.pixelexperience.weather.client
+com.quicinc.cne.CNEService
+/data/data # rm -r *lineageos*
+/data/data # ls
+code.name.monkey.retromusic         com.quicinc.cne.CNEService
+com.aospextended.ota                com.ucturbo
+com.custom.fonts                    jahirfiquitiva.apps.frames.sample
+com.dsi.ant.server                  mark.via.gp
+com.du.settings.doze                org.codeaurora.ims
+com.qti.dpmserviceapp               org.pixelexperience.weather.client
+/data/data # rm -r *aospex*
+/data/data # ls
+code.name.monkey.retromusic         com.ucturbo
+com.custom.fonts                    jahirfiquitiva.apps.frames.sample
+com.dsi.ant.server                  mark.via.gp
+com.du.settings.doze                org.codeaurora.ims
+com.qti.dpmserviceapp               org.pixelexperience.weather.client
+com.quicinc.cne.CNEService
+/data/data # rm -rf *pixelexperence*
+/data/data # ls
+code.name.monkey.retromusic         com.ucturbo
+com.custom.fonts                    jahirfiquitiva.apps.frames.sample
+com.dsi.ant.server                  mark.via.gp
+com.du.settings.doze                org.codeaurora.ims
+com.qti.dpmserviceapp               org.pixelexperience.weather.client
+com.quicinc.cne.CNEService
+/data/data # rm -rf *pixelexperience*
+/data/data # ls
+code.name.monkey.retromusic        com.quicinc.cne.CNEService
+com.custom.fonts                   com.ucturbo
+com.dsi.ant.server                 jahirfiquitiva.apps.frames.sample
+com.du.settings.doze               mark.via.gp
+com.qti.dpmserviceapp              org.codeaurora.ims
+/data/data # echo "many be OK"
+many be OK
+/data/data # 
