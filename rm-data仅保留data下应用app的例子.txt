@@ -35,9 +35,9 @@ app-ephemeral   data.tar        misc            ss              vendor
 app-lib         dpm             misc_ce         ssh             vendor_ce
 app-private     drm             misc_de         system          vendor_de
 backup          fpc             nfc             system_ce
-/data # rm -r `ls | grep -v "data\|system"`
+/data # rm -r `ls | grep -v "data\|system\|media"`
 /data # ls
-data      data.tar      system
+data      data.tar      system   media
 /data # rm data.tar 
 /data # ls
 data
