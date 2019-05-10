@@ -9,6 +9,20 @@ AEX-p-data-system目录下展示了：AEX安卓p的data/system包管理配置文
 包管理配置问题  
 这个问题还在测试，由于作者只有一台手机（日常使用+测试及其难受），所以项目进度非常缓慢
 
+# /data/下应该保留的目录
+media    内置储存(sdcard)真实位置
+data     数据/App
+system   包管理位置
+
+# /data/data/下应该删除的目录，括号为不确定
+qualcom
+google
+xiaomi
+miui
+android
+(goodix)
+(qti)
+
 ## 主要思路
 rm掉data分区下不需要的文件，仅保留需要的文件（
 -	  /data/app/  非系统应用  
