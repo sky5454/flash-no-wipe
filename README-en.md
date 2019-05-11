@@ -12,6 +12,7 @@ Project Still being tested, and the project is progressing very slowly because t
 
 ### Directories that should be retained under /data/
 | DIR       | Describe                                  |
+|-----------|:-----------------------------------------:|
 | Media     |  built-in storage (sdcard) Real location  |
 | Data      |  App's data                               |
 | System    |  Package Management Location              |
