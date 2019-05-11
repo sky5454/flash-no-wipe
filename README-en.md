@@ -1,20 +1,21 @@
 # Flash-no-wipe (currently in the Beta phase)
-"flash rom but not wipe"
-Note that in the case of decryption of encrypted partitions, it is generally necessary to format and not apply to this Project
+"flash rom but not wipe"  
+Note that in the case of decryption of encrypted partitions, it is generally necessary to format and not apply to this Project  
 
-You are very welcome to submit each ROM app package name, which is very conducive to the next content of the precise adaptation
-AEX-p-data-system Directory shows: AEX Android P Data/system Package Management Profile Example Description
+You are very welcome to submit each ROM app package name, which is very conducive to the next content of the precise adaptation  
+AEX-p-data-system Directory shows: AEX Android P Data/system Package Management Profile Example Description  
 
 ## Current Issues
-Accidentally deleted the Data directory contents ...
-Package Management configuration Issues
-The problem is still being tested, and the project is progressing very slowly because the author has only one mobile phone (daily use + test and it make me uncomfortabled)
+
+Package Management configuration Issues  
+Project Still being tested, and the project is progressing very slowly because the author has only one mobile phone (daily use + test and it make me uncomfortabled)  
 
 ### Directories that should be retained under /data/
-Media built-in storage (sdcard) Real location
-Data/App
+| DIR       | Describe                                  |
+| Media     |  built-in storage (sdcard) Real location  |
+| Data      |  App's data                               |
+| System    |  Package Management Location              |
 
-System Package Management Location
 ### Directories that should be deleted under /data/data/, with parentheses for uncertainty
 Qualcom
 Google
