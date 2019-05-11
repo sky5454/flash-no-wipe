@@ -3,6 +3,7 @@
 - All tested in the TWRP and Linux  
 - You are very welcome to submit each ROM app package name, which is very conducive to the next content of the precise adaptation  
 - AEX-p-data-system Directory shows: AEX Android P Data/system Package Management Profile Example Description  
+- Really sorry, since my poor English, some files hasn't been translated.(But you can use translation software.)
 
 ## Current Issues
 
