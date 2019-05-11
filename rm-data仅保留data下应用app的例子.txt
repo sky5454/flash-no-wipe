@@ -1,4 +1,4 @@
-~$ adb shell
+~$ <font color="#09f">adb shell</font>
 ~ # ls
 bt_firmware                             oem
 cache                                   persist
