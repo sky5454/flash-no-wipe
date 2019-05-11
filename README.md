@@ -1,3 +1,5 @@
+# <a href="README-en.md">English Edition</a>
+
 # flash-no-wipe 目前为Beta阶段
 刷机不双清，我们可以做到的 We can flash rom without wipe.  
 注意，如果是加密分区的解密，一般需要格式化，不适用本Project  
