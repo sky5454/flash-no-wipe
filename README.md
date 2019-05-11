@@ -1,4 +1,4 @@
-# flash-no-wipe 本项目目前在实验阶段，请勿作死尝试
+# flash-no-wipe 目前为Beta阶段
 刷机不双清，我们可以做到的 We can flash rom without wipe.  
 注意，如果是加密分区的解密，一般需要格式化，不适用本Project  
 非常欢迎各位把各ROM的app包名提交上来，这非常有利于下一步内容的精准适配  
