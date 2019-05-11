@@ -1,4 +1,5 @@
 # <a href="README-en.md">English Edition</a>
+"we could flash rom without wipe!"
 
 # flash-no-wipe 目前为Beta阶段
 刷机不双清，我们可以做到的 We can flash rom without wipe.  
