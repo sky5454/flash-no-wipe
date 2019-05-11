@@ -1,9 +1,9 @@
 # Flash-no-wipe (currently in the Beta phase)
-"flash rom but not wipe"  
-Note that in the case of decryption of encrypted partitions, it is generally necessary to format and not apply to this Project  
+- "flash rom but not wipe"  
+- Note that in the case of decryption of encrypted partitions, it is generally necessary to format and not apply to this Project  
 
-You are very welcome to submit each ROM app package name, which is very conducive to the next content of the precise adaptation  
-AEX-p-data-system Directory shows: AEX Android P Data/system Package Management Profile Example Description  
+- You are very welcome to submit each ROM app package name, which is very conducive to the next content of the precise adaptation  
+- AEX-p-data-system Directory shows: AEX Android P Data/system Package Management Profile Example Description  
 
 ## Current Issues
 
