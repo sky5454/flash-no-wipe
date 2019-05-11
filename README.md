@@ -24,11 +24,11 @@ system   包管理位置
   - (qti)
 
 ## 主要思路
-rm掉data分区下不需要的文件，仅保留需要的文件（
+rm掉data分区下不需要的文件，仅<b>保留</b>需要的文件（
 -	  /data/app/  非系统应用  
 -	  /data/data/ 非系统数据  
 -	  /data/app-lib/  非系统部分  
--	  /data/system/  包管理剔除系统应用部分  
+-	  /data/system/  剔除系统应用，仅保留包管理部分  
 -         其他待提交  
 ）
 
